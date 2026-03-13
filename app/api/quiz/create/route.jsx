@@ -21,6 +21,7 @@ export async function POST(req) {
       quizCode,
       questions,
       teacherId,
+      isLocked:false,
       createdAt: new Date(),
     });
 
